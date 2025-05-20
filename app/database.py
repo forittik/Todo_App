@@ -8,7 +8,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-DATABASE_URL = "mongodb+srv://rittikstdz:0OeQ3GABjY3HXF75@todoapp.epg3h.mongodb.net/?retryWrites=true&w=majority&appName=TodoAPP"
+DATABASE_URL = "mongodb+srv://{your-mongodb-key}@todoapp.epg3h.mongodb.net/?retryWrites=true&w=majority&appName=TodoAPP"
 DATABASE_NAME = "todoapp"
 COLLECTION_NAME = "todos"
 
